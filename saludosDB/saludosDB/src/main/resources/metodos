@@ -1,4 +1,0 @@
-isaludadores.findAll();
-isaludadores.save(e);
-isaludadores.deleteById(peticion.getId());
-isaludadores.findById(peticion.getId());
