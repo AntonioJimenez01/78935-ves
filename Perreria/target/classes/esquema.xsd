@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://perreriaLomos.uv.mx/perreria"
+xmlns:tns="https://perreriaLomos.uv.mx/perreria"
+elementFormDefault="qualified">
+
+  <xs:element name="DeletePerroRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="id" type="xs:integer"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="DeletePerroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="message" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
+
